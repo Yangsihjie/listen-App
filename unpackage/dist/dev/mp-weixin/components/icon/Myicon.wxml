@@ -1,0 +1,1 @@
+<view><text class="{{[iconName,iconColor]}}" style="{{'fontsize:'+(iconSize+'rpx')+';'}}"></text></view>

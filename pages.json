@@ -5,6 +5,12 @@
 		},
 		{
 			"path":"pages/list/list"
+		},
+		{
+			"path":"pages/collection/collection"
+		},
+		{
+			"path":"pages/mine/mine"
 		}
 	],
 	"globalStyle": {
@@ -18,11 +24,27 @@
 		"list":[
 			{
 				"pagePath":"pages/index/index",
-				"text":"首页"
+				"text":"首页",
+				"iconPath":"static/icon_jpsq0tz0dn/shouye.png",
+				"selectedIconPath":"static/icon_igpzkjzohlr/shouye.png"
 			},
 			{
 				"pagePath":"pages/list/list",
-				"text":"分类"
+				"text":"分类",
+				"iconPath":"static/icon_jpsq0tz0dn/leimupinleifenleileibie.png",
+				"selectedIconPath":"static/icon_igpzkjzohlr/leimupinleifenleileibie.png"
+			},
+			{
+				"text":"收藏",
+				"iconPath":"static/icon_jpsq0tz0dn/startRead.png",
+				"selectedIconPath":"static/icon_igpzkjzohlr/startRead.png",
+				"pagePath":"pages/collection/collection"
+			},
+			{
+				"text":"我的",
+				"iconPath":"static/icon_jpsq0tz0dn/character-avatar.png",
+				"selectedIconPath":"static/icon_igpzkjzohlr/character-avatar.png",
+				"pagePath":"pages/mine/mine"
 			}
 		]
 	}

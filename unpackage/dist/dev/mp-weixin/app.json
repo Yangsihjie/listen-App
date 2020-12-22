@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/collection/collection",
+    "pages/mine/mine"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon_jpsq0tz0dn/shouye.png",
+        "selectedIconPath": "static/icon_igpzkjzohlr/shouye.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "分类",
+        "iconPath": "static/icon_jpsq0tz0dn/leimupinleifenleileibie.png",
+        "selectedIconPath": "static/icon_igpzkjzohlr/leimupinleifenleileibie.png"
+      },
+      {
+        "text": "收藏",
+        "iconPath": "static/icon_jpsq0tz0dn/startRead.png",
+        "selectedIconPath": "static/icon_igpzkjzohlr/startRead.png",
+        "pagePath": "pages/collection/collection"
+      },
+      {
+        "text": "我的",
+        "iconPath": "static/icon_jpsq0tz0dn/character-avatar.png",
+        "selectedIconPath": "static/icon_igpzkjzohlr/character-avatar.png",
+        "pagePath": "pages/mine/mine"
+      }
+    ]
+  },
+  "usingComponents": {
+    "my-icon": "/components/icon/Myicon"
+  }
+}

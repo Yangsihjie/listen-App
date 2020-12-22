@@ -1,0 +1,7 @@
+
+.box{
+	height: 200rpx;
+	border: #0E151D 1px solid;
+	background-color: #0F6674;
+}
+
