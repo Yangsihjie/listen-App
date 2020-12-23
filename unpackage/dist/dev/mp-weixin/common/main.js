@@ -18,7 +18,7 @@ _App.default.mpType = 'app';
 _vue.default.prototype.$statusBarHeight = uni.getSystemInfoSync().statusBarHeight;
 
 //挂载全局icon组件
-var MyIcon = function MyIcon() {__webpack_require__.e(/*! require.ensure | components/icon/Myicon */ "components/icon/Myicon").then((function () {return resolve(__webpack_require__(/*! ./components/icon/Myicon.vue */ 37));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
+var MyIcon = function MyIcon() {__webpack_require__.e(/*! require.ensure | components/icon/Myicon */ "components/icon/Myicon").then((function () {return resolve(__webpack_require__(/*! ./components/icon/Myicon.vue */ 41));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
 _vue.default.component("MyIcon", MyIcon);
 var app = new _vue.default(_objectSpread({},
 _App.default));

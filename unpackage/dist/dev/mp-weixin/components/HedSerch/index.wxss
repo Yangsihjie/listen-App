@@ -1,0 +1,23 @@
+
+.navBox{
+	height: 60rpx;
+	border: #C0C0C0 1px solid;
+	position: relative;
+	padding:0 20rpx;
+	background-color: #f8f9fa;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	line-height: 60rpx;
+}
+.hedicon{
+	position: absolute;
+	top: 0;
+	left: 20rpx;
+}
+.navBox input{
+	font-size: 24rpx;
+	text-indent: 40rpx;
+	height: 40rpx;
+	margin-top: 10rpx;
+}
+

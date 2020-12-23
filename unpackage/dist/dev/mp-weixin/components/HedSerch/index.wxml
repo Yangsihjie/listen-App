@@ -1,0 +1,1 @@
+<view class="navBox m-1"><my-icon class="hedicon" vue-id="d4fd1d2c-1" iconName="icon-tubiao11" iconSize="26" iconColor="text-light-muted" bind:__l="__l"></my-icon><input type="text" placeholder="搜索你想听的节目"/></view>

@@ -43,5 +43,6 @@
   },
   "usingComponents": {
     "my-icon": "/components/icon/Myicon"
-  }
+  },
+  "sitemapLocation": "sitemap22.json"
 }

@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "hed-serch": "/components/HedSerch/index",
+    "my-swiper": "/components/HedSwiper/index",
+    "my-nav-bar": "/components/NavBar/index",
+    "my-like-books": "/components/hedBooks/index"
+  }
 }
