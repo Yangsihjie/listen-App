@@ -1,25 +1,42 @@
 <template>
 	<view class="content">
 		<view :style="{height: `${statusBarHeight}px`}"></view>
-		首页
-		<button type="default" @click="Dian">安娜娜</button>
-		<view class="bg-primary border col-12">
-			<text class="iconfont icon-shoucang" style="font-size:200rpx"></text>
-			<text class="iconfont">&#xe6a4;</text>
-			<my-icon iconName="iconfont icon-shoucang" ></my-icon>
-		</view>
-		<view class="box" hover-class="animate__animated animate__bounce">
-			<my-icon iconName="iconfont icon-xihuan2" :iconSize="80"></my-icon>
-		</view>
+		<!-- 头部搜索框 -->
+		<hed-serch></hed-serch>
+		<!-- 轮播图组件 -->
+		<my-swiper :swiperList="swiperList"></my-swiper>
+		<!-- 导航组件 -->
 	</view>
 </template>
 
 <script>
+	// 头部搜索框
+	import HedSerch from '../../components/HedSerch'
+	//轮播图组件
+	import MySwiper from '../../components/HedSwiper'
 	export default {
 		data() {
 			return {
-			statusBarHeight:this.$statusBarHeight
+			statusBarHeight:this.$statusBarHeight,
+			swiperList:[
+				{
+					url:'http://ceshi.dishait.cn/ceshiData/swiperImages/swipertab1.png'
+				},
+				{
+					url:'http://ceshi.dishait.cn/ceshiData/swiperImages/swipertab2.png'
+				},
+				{
+					url:'http://ceshi.dishait.cn/ceshiData/swiperImages/swipertab3.png'
+				},
+				{
+					url:'http://ceshi.dishait.cn/ceshiData/swiperImages/swipertab4.png'
+				},
+			]
 			}
+		},
+		components:{
+			HedSerch, //搜索组件
+			MySwiper, //轮播图组件
 		},
 		onLoad() {
 
@@ -27,17 +44,14 @@
 		onShow() {
 		},
 		methods: {
-			Dian(){
-				console.log(this.$statusBarHeight)
-			}
+			
+		},
+		onShow() {
+			
 		}
 	}
 </script>
 
 <style>
-.box{
-	height: 200upx;
-	border: #0E151D 1px solid;
-	background-color: #0F6674;
-}
+
 </style>

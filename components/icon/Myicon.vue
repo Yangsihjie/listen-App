@@ -1,8 +1,8 @@
 <template>
-	<!-- icon图标组价 -->
-	<view>
-		<text :class="[iconName,iconColor]" :style="{fontsize: `${iconSize}rpx`}"></text>
-	</view>
+	<!-- icon图标组件 -->
+	
+		<text :class="[`iconfont ${iconName}`,iconColor]" :style="{fontSize: `${iconSize}rpx`}"></text>
+	
 </template>
 
 <script>
@@ -12,7 +12,7 @@
 		props :{
 			iconName:{
 				type:String,
-				default:'iconfont'
+				default:''
 			},
 			iconColor:{
 				type:String,
@@ -28,14 +28,12 @@
 				
 			};
 		},
-		onShow() {
-			console.log(this.iconSize)
-		}
+		
 	}
 </script>
 
 <style>
-text{
+/* text{
 	font-size: 80rpx;
-}
+} */
 </style>
